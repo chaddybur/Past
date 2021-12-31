@@ -1,9 +1,9 @@
-var quote = function(fighter) {
-    // your code here
-    let name = fighter.toLowerCase()
-    if (name == 'george saint pierre'){
-      return "I am not impressed by your performance."
-    }else{
-      return "I'd like to take this chance to apologize.. To absolutely NOBODY!"
-    }
-  };
+function guessBlue(blueStart, redStart, bluePulled, redPulled) {
+    // Your code here.
+    
+    let blueLeft = blueStart - bluePulled
+    let redLeft = redStart - redPulled
+    
+    let total = blueLeft + redLeft
+    return blueLeft/ total
+  }
