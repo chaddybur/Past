@@ -1,4 +1,3 @@
-function all( arr, fun ){
-  // ...
-  return arr.every(e => fun(e))
+function orderOperations () {
+  return (2 + 2) * (2 + 2) * 2
 }
