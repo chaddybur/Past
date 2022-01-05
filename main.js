@@ -1,3 +1,5 @@
-function orderOperations () {
-  return (2 + 2) * (2 + 2) * 2
+function integrate(coefficient, exponent) {
+  let num = exponent + 1
+  let otherNum = coefficient / num
+  return `${otherNum}x^${num}`
 }
