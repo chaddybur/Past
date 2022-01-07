@@ -1,12 +1,12 @@
-function padIt(str,n){
-  let i = 1
-  while(i <= n){
-    if(i % 2 == 0){
-      str = str + "*"
-      i++
-    }else{
-       str = "*"+ str
-      i++
-    }
-  }return str
+function contamination(text, char){
+  // Code here ;)
+  if (text == "" || char == ""){
+    return ""
+  }
+  let textArr = text.split("")
+  
+  for(i = 0; i < textArr.length; i++){
+    textArr[i] = char
+  }
+  return textArr.join("")
 }
