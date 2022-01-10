@@ -1,4 +1,5 @@
-function joinStrings(string1, string2){
-  // code here
- return `${string1} ${string2}`
+function typeOfSum(a, b) {
+  // good luck
+  let thing = a + b
+  return typeof thing
 }
