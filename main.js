@@ -1,8 +1,11 @@
-function Ship(draft,crew) {
-  this.draft = draft;
-  this.crew = crew;
- }
- 
- Ship.prototype.isWorthIt = function(){
- return this.draft-(this.crew*1.5) > 20;
- }
+function charFreq(message) {
+  // awesome counter code
+    let data = message.split("")
+    const obj = data.reduce(function(obj, item) {
+        if (!obj[item]) {
+          obj[item] = 0;
+        }
+        obj[item]++;
+        return obj;
+      }, {});
+}
