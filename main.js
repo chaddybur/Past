@@ -1,5 +1,8 @@
-function billboard(name, price = 30){
-
-  console.log(name)
-return name.split("").length * price
-} 
+function ensureQuestion(s) {
+  let arr = s.split("")
+  
+  if(arr[arr.length-1] != "?"){
+    arr.push("?")
+  }
+  return arr.join("")
+}
