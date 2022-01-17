@@ -1,3 +1,5 @@
-function add(a, b){
-	return a == b ? true: false
-}
+function billboard(name, price = 30){
+
+  console.log(name)
+return name.split("").length * price
+} 
